@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+article{
+    width: 100%;
+    max-width: 384px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    padding: 24px;
+    box-shadow: 8px 8px 0px black;
+}
+
+.card-img img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.label{
+    margin:15px 0;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size:  16px;
+    font-weight: 500;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+}
+
+.publish-date{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.card-details h1{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.card-details h1:hover{
+    color: hsl(47, 88%, 63%);;
+}
+
+.description{
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+
+.author-name{
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.author-name img{
+    width: 35px;
+}
+
+.author-name h2{
+    font-size: 15px;
+}
